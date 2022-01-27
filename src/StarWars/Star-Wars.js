@@ -2,11 +2,11 @@ export const starWars = [
   {
     side:'Dark Side',
     totalMembers: 3,
-    img: 'https://pixabay.com/photos/star-wars-darth-vader-dark-darth-1386790/200/200',
+    img: './vader.webp',
     troopLeader: {
       name: 'Targin Leeks',
       age: 25,
-      img: 'https://pixabay.com/photos/star-wars-warrior-space-2473201/200/200'
+      img: './fighters.webp'
     },
     members: [
       {
@@ -23,11 +23,11 @@ export const starWars = [
   {
     side: 'Light Side',
     totalMembers: 3,
-    img: 'https://pixabay.com/vectors/yoda-jedi-star-wars-922520/200/200',
+    img: './yoda.jpeg',
     troopLeader: {
       name: 'Luke Skywalker',
       age: 20,
-      img: 'https://pixabay.com/photos/star-wars-han-solo-luke-skywalker-1724897/200/200'
+      img: './luke.jpeg'
     },
     members: [
       {
