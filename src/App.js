@@ -1,6 +1,6 @@
 import './App.css';
-import StarWarsList from './StarWarsList/StarWarsList';
-import { starWars } from './StarWarsList/star-wars';
+import StarWarsList from './StarWars/StarWarsList.js';
+import { starWars } from './StarWars/star-wars.js';
 // import your arrays here
 
 function App() {
