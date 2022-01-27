@@ -1,9 +1,8 @@
 import React from 'react';
-import membersList from './membersList.js';
+import MemberList from './MemberList.js';
 import styles from './star-wars-list.module.css';
 
-export default function StarWars({ troopLeader, img, totalMembers, members, side }) {
-  console.log(img);
+export default function StarWars({ troopLeader, img, totalGroup, members, side }) {
   return <div className={styles['war-item']}>
     <h1>{side}</h1>
     <div>
@@ -14,8 +13,8 @@ export default function StarWars({ troopLeader, img, totalMembers, members, side
       </div>
       <div>
         <img src={img}/>
-        <p>total members: {totalMembers}</p>
-        <membersList members={members} />
+        <p>total Group: {totalGroup}</p>
+        <MemberList members={members} />
       </div>
     </div>
   </div>;

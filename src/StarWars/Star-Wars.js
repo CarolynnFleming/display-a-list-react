@@ -1,7 +1,7 @@
 export const starWars = [
   {
     side:'Dark Side',
-    totalMembers: 3,
+    totalGroup: 3,
     img: './vader.webp',
     troopLeader: {
       name: 'Targin Leeks',
@@ -22,7 +22,7 @@ export const starWars = [
   },
   {
     side: 'Light Side',
-    totalMembers: 3,
+    totalGroup: 3,
     img: './yoda.jpeg',
     troopLeader: {
       name: 'Luke Skywalker',
@@ -32,11 +32,11 @@ export const starWars = [
     members: [
       {
         name: 'Han Solo',
-        color: 'lime green',
+        color: 'green',
       },
       {
         name: 'Yoda',
-        color: 'light blue'
+        color: 'blue'
       },
     ]
   }
