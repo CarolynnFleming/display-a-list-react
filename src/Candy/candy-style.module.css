@@ -1,0 +1,20 @@
+.candyland-list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: wrap;
+    color: #ef6f6c;
+}
+.candy-item {
+    margin: 20px;
+    width: 500px;
+    border: solid 2em #ddae7e;
+    padding: 10px;
+    border-radius: 20px;
+    background-color: #7fb685;
+}
+
+img {
+    width: 100px;
+    transform: rotateZ(20deg);
+}

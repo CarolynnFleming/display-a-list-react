@@ -10,4 +10,3 @@ export default function StarWarsList(props) {
 
   </div>;
 }
-
