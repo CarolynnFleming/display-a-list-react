@@ -9,4 +9,4 @@ export default function HiddenLeafItem({ name, img }) {
   </div>;
 }
 
-//okay
+//okay the way
