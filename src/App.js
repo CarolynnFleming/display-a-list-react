@@ -1,6 +1,6 @@
 import './App.css';
 import StarWarsList from './StarWars/StarWarsList.js';
-import { starWars } from './StarWars/star-wars.js';
+import { starWars } from './StarWars/StarWarsArray';
 import { candyLand } from './Candy/Candy.js';
 import CandyList from './Candy/CandyList.js';
 import { hiddenLeaf } from './HiddenLeaf/HiddenLeaf.js';
