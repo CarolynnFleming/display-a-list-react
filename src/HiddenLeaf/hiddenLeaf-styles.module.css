@@ -1,0 +1,15 @@
+.hiddenleaf-list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: wrap;
+    color: #ed33b9;
+}
+.hiddenleaf-item {
+    margin: 20px;
+    width: 500px;
+    border: solid 2em #f9e900;
+    padding: 10px;
+    border-radius: 20px;
+    background-color: #00c2d1;
+}
