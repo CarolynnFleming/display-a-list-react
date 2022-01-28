@@ -1,6 +1,8 @@
 import './App.css';
 import StarWarsList from './StarWars/StarWarsList.js';
 import { starWars } from './StarWars/star-wars.js';
+import { candyLand } from './Candy/Candy.js';
+import CandyList from './Candy/CandyList.js';
 // import your arrays here
 
 function App() {
@@ -8,6 +10,7 @@ function App() {
     <div className="App">
         Render all your lists here. Pass the arrays as props.
       <StarWarsList starWars={starWars} />
+      <CandyList candyLand={candyLand} />
     </div>
   );
 }
