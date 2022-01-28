@@ -1,0 +1,28 @@
+.star-wars-list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: wrap;
+    color: #7fb685;
+}
+.war-saber {
+    margin: 20px;
+    width: 500px;
+    border: solid 2em #426a5a;
+    padding:10px;
+    border-radius: 20px;
+    background-color: #f2c57c;
+}
+
+.troop-leader {
+    padding: 20px;
+}
+
+.troop-leader img {
+    width: 200px;
+    transform: rotate(25deg);
+}
+
+.other-stars img {
+    width: 200px;
+}

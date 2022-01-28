@@ -1,5 +1,5 @@
 import React from 'react';
-import StarWars from './StarWars';
+import StarWars from './StarWars.js';
 import styles from './star-wars-list.module.css';
 
 export default function StarWarsList(props) {
